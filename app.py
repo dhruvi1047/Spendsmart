@@ -20,6 +20,28 @@ st.set_page_config(page_title="SpendSmart", page_icon="💸", layout="wide")
 
 st.markdown("""
 <style>
+div[data-testid="stMetricValue"],
+
+div[data-testid="stMetricValue"] > div {
+
+    color: #24352B !important;
+
+    -webkit-text-fill-color: #24352B !important;
+
+}
+
+div[data-testid="stMetricLabel"],
+
+div[data-testid="stMetricLabel"] p {
+
+    color: #52645A !important;
+
+}
+
+div[data-testid="stMetric"] {
+
+    background-color: #F1F5EF !important;
+}
     .block-container {padding-top: 2rem; padding-bottom: 3rem; max-width: 1400px;}
     [data-testid="stMetric"] {background: #f5f8f4; border: 1px solid #e2ebe1; padding: 14px 16px; border-radius: 14px;}
     [data-testid="stMetricLabel"] {color: #607568;}
